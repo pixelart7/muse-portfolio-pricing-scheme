@@ -60,10 +60,10 @@ Eg.
 
 ## portfolioInfo
 
-Currently, only one key "page" it is used for the calculation, back-end can just fetch the numbers of page from the internal generation function
+Currently, only one key "pages" it is used for the calculation, back-end can just fetch the numbers of page from the internal generation function
 
 ```
 {
-  page: 10
+  pages: 10
 }
 ```

@@ -1,9 +1,13 @@
 {
   "name": "muse-portfolio-pricing-scheme",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Pricing scheme for Muse Portfolio",
   "main": "index.js",
   "author": "Chaiyapat Tantiworachot <sonkungz_on@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelart7/muse-portfolio-pricing-scheme.git"
+  },
   "license": "MIT",
   "private": false,
   "devDependencies": {
