@@ -1,6 +1,6 @@
 {
   "name": "muse-portfolio-pricing-scheme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pricing scheme for Muse Portfolio",
   "main": "index.js",
   "author": "Chaiyapat Tantiworachot <sonkungz_on@hotmail.com>",
