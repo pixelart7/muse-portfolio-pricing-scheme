@@ -4,26 +4,27 @@ const pricingScheme = {
       base: 350
     },
     print_portfolio: {
-      base: 250,
+      base: 200,
       additional(portfolioInfo) {
-        if (portfolioInfo.pages > 10)
-          return (portfolioInfo.pages - 10) * 10 // plus 10 every page after 10th 
+        if (portfolioInfo.pages > 10 && portfolioInfo.pages <= 20) return 150
+        if (portfolioInfo.pages > 20 && portfolioInfo.pages <= 40) return 450
         return 0
       },
       options: {
         binding: {
           none: 0,
-          folder: 100,
-          spine: 250
+          folder: 0,
+          spine: 0,
+          book: 100
         }
       }
     }
   },
   promoCode: {
-    'PDFZEROBAHT': {
-      pdf_portfolio: (val) => val - 350,
-      print_portfolio: (val) => val
-    },
+    // 'PDFZEROBAHT': {
+    //   pdf_portfolio: (val) => val - 350,
+    //   print_portfolio: (val) => val
+    // },
   }
 }
 
